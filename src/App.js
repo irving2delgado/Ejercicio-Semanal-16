@@ -9,7 +9,7 @@ function App() {
         setTareas([...tareas, tarea]);
     };
     return (
-        <div>
+        <div className="container">
             <h1>Lista de Tareas</h1>
             <Formulario agregarTarea={agregarTarea} />
             <ul>
